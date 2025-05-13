@@ -1,9 +1,7 @@
 {
-    "/api/animals":{
+    "/api/animals": {
         "target": "http://localhost:3000",
         "secure": false,
-        "changerOrigin": false
-
+        "changeOrigin": false
     }
-
 }

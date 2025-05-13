@@ -9,5 +9,5 @@ import { AnimalComponent } from './components/animal/animal.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'webzoologico_jasmin';
+  title = 'webzoologico_13May2025';
 }

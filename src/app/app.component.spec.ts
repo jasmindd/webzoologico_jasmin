@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'webzoologico_jasmin' title`, () => {
+  it(`should have the 'webzoologico_13May2025' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('webzoologico_jasmin');
+    expect(app.title).toEqual('webzoologico_13May2025');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, webzoologico_jasmin');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, webzoologico_13May2025');
   });
 });
